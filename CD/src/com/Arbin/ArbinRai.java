@@ -3,7 +3,7 @@ package com.Arbin;
 /**
  * Created by lt3733yt on 10/14/2015.
  */
-public class Arbin {
+public class ArbinRai {
 public void claculateCosts(int price){
     int total=0;
     total=total+price;
