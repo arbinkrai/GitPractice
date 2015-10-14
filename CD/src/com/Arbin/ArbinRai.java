@@ -7,7 +7,9 @@ public class ArbinRai {
 public void claculateCosts(int price){
     int total=0;
     total=total+price;
-    System.out.println("The total price of the selected CDs and LPs is "+total+".");
+    int grandTotal=total+((5/100)*total);
+
+    System.out.println("The total price of the selected CDs and LPs is "+grandTotal+".");
 
 }
 }
